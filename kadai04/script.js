@@ -97,7 +97,7 @@ class ThreeApp {
 
 			// 交差があればURLに遷移
 			if (intersects.length > 0) {
-				window.location.href = "https://webgl.souhonzan.org/";
+				window.open("https://webgl.souhonzan.org/", "_blank");
 			}
 		});
 
